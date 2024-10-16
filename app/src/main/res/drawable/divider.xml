@@ -1,0 +1,8 @@
+<!-- res/drawable/divider.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the height of the divider -->
+    <size android:height="1dp" />
+
+    <!-- Set the color of the divider line -->
+    <solid android:color="@color/coolGray" />
+</shape>

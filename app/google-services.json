@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1097254192158",
+    "project_id": "noteapptermwork",
+    "storage_bucket": "noteapptermwork.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097254192158:android:336d445cb9408fdee81a0f",
+        "android_client_info": {
+          "package_name": "com.example.mynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjnDGa_Gj8QFAu9Lrhi-fhP-NvFNkF0VM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

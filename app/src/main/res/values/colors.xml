@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="skyblue">#a7c5eb</color>
+
+
+    <!-- Pastel and Soothing Colors -->
+    <color name="pastelPink">#FFC1CC</color>
+    <color name="pastelBlue">#A7C7E7</color>
+    <color name="pastelGreen">#B0E57C</color>
+    <color name="pastelYellow">#FFF9C4</color>
+
+
+    <!-- Vibrant and Playful Colors -->
+    <color name="brightRed">#FF5252</color>
+    <color name="vibrantOrange">#FF7043</color>
+    <color name="limeGreen">#76FF03</color>
+    <color name="vibrantBlue">#40C4FF</color>
+
+
+    <!-- Earthy and Natural Colors -->
+    <color name="forestGreen">#2E7D32</color>
+    <color name="clayRed">#D84315</color>
+    <color name="warmYellow">#FFB300</color>
+    <color name="oceanBlue">#0288D1</color>
+
+
+    <!-- Dark Mode Friendly Colors -->
+    <color name="darkBackground">#121212</color>
+    <color name="darkPrimary">#1E88E5</color>
+    <color name="darkSecondary">#D32F2F</color>
+    <color name="deepPurple">#673AB7</color>
+
+
+    <!-- Neutral and Elegant Colors -->
+    <color name="charcoal">#333333</color>
+    <color name="warmTaupe">#D2B48C</color>
+    <color name="lightCream">#FFF8E1</color>
+    <color name="coolGray">#90A4AE</color>
+
+
+    <!-- Sunset Inspired Colors -->
+    <color name="sunsetOrange">#FF7043</color>
+    <color name="softLavender">#CE93D8</color>
+    <color name="horizonBlue">#81D4FA</color>
+    <color name="nightSky">#546E7A</color>
+
+
+    <!-- Additional Complementary Colors -->
+    <color name="platinum">#BDC3C7</color>
+    <color name="seafoamGreen">#00ACC1</color>
+
+</resources>

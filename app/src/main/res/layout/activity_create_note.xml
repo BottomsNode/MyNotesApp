@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNoteActivity"
+    android:background="@drawable/background_note_create"
+    android:padding="16dp">
+
+    <!-- Toolbar with shadow and padding for a modern look -->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbarofcreatenote"
+        android:background="@drawable/background_note_create"
+        android:elevation="4dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints="Title"
+            android:inputType="text"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:hint="@string/enter_your_note_title"
+            android:background="@android:color/transparent"
+            android:textColorHint="@color/black"
+            android:id="@+id/createtitleofnote"
+            tools:ignore="VisualLintTextFieldSize"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Note content input with improved padding and text style -->
+    <EditText
+        android:id="@+id/createcontentofnote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarofcreatenote"
+        android:gravity="top|start"
+        android:hint="@string/enter_your_content"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        tools:ignore="Autofill,RtlHardcoded,VisualLintTextFieldSize,TextSizeCheck" />
+
+    <!-- ProgressBar for saving note -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" /> <!-- Initially hidden -->
+
+    <!-- Improved FloatingActionButton with material design elevation and ripple effect -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/savenote"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/save_5"
+        app:backgroundTint="@color/skyblue"
+        android:elevation="8dp"
+        app:rippleColor="@color/white"
+        app:maxImageSize="45dp" />
+
+</RelativeLayout>
